@@ -1,10 +1,14 @@
-import Egg from "../assets/images/egg.png";
 import Burger from "../assets/Images/burger.jpg";
-import { href, useNavigate } from "react-router-dom";
+import Egg from "../assets/Images/egg.png";
+import {  useNavigate } from "react-router-dom";
+import { useCart } from "../Context/CartContext";
 
 export default function Dash() {
   const navigate = useNavigate();
+
+
   return (
+
     <div
       id="home"
       className="flex flex-col items-center justify-center gap-6 px-4"

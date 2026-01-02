@@ -6,11 +6,7 @@ import Button from "../Components/Button";
 import { useCart } from "../Context/CartContext";
 
 import type { CartItem } from "../Types/Cart";
-// type CartItem = {
-//   id: number;
-//   name: string;
-//   price: number;
-// };
+
 
 export default function Menu() {
   const { cart, setCart } = useCart();
