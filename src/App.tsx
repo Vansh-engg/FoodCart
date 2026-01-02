@@ -13,7 +13,7 @@ import { Routes, Route } from "react-router-dom";
     <Nav />
       <Routes>
         {/* DEFAULT PAGE */}
-        <Route path="dash" element={<Dash />} />
+         <Route path="/" element={<Dash />} />
 
         {/* OTHER PAGES */}
         <Route path="menu" element={<Menu />} />
